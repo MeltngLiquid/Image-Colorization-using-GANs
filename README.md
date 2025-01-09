@@ -32,7 +32,6 @@ The discriminator is a convolutional neural network that evaluates the realism o
 ## Dataset
 
 This project is designed to work with grayscale images as input. The output is the corresponding colorized version of the images. For training, the **MiniImageNet** dataset was used, which consists of paired grayscale and color images.
-
 ## Requirements
 
 tensorflow==2.10.1
@@ -47,7 +46,9 @@ Install dependencies using:
 ```bash
 pip install -r requirements.txt
 ```
-
+## Training the model
+The training process got me some difficulties , I was not able to run the code for so long due to computational issues.
+If availible , running the model for long enough by changing the number of epochs and steps can provide better results(highly recommended).
 ## Models and Weights
 
 - **Model**: [Download Here](https://drive.google.com/file/d/1xxEXxGjkTF1k_Ixhds71QGMSj7zA38yi/view?usp=drive_link)
